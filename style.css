@@ -10,59 +10,66 @@
     --primary-color: hotpink;
 }
 
-
-/* #container{
-    max-width: 90%;
-    height: 900px;
-    margin: auto;
-    border-style: dashed;
-} */
-
 header{
+    background-color: #8CA1A5;
+    color: #555555;
+    position: fixed;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 2rem;
+    padding: 0 6rem;
 }
 
 .title{
     display: flex;
     align-items: center;
-    margin-top: 1rem;
+    justify-content: center;
+    gap: 1rem;
 }
-
 .title-sentence{
-    margin-top: 1rem;
+    padding: 1rem;
 }
 .bankaimage{
-    width: 8rem;
+    width: 6rem;
 }
 
 .content{
+    padding-top: 100px;
     display: flex;
-    justify-content: space-between;
-    margin: 1rem 2rem 0 2rem;
     height: 100vh;
+    background-color: #EEEEEE;
 }
 
+
 .left-content{
-    width: 24%;
+    background-image: url(./assets/Abstract\ Geometric\ Triangle\ Lines\ Image.jpeg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 40%;
     padding-top: 4rem;
-    padding-left: 5rem;
+    padding-left: 2rem;
+}
+.left-content h3{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 36px;
 }
 
 section img{
     max-width: 2.4rem;
 }
 .money{
-    margin-bottom: 4rem;
+    margin-bottom: 2.5rem;
+    border-bottom: solid #000;
 }
 
 section{
     display: flex;
     align-items: center;
     gap: 3rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 section .döviz-title{
@@ -72,54 +79,119 @@ section .döviz-title{
     gap: 0.5rem;
 }
 
-/* div section{
-    max-width: 12rem;
+.sale-purchase{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem;
-} */
-
-
-.main-content{
-    border-style: groove;
-    width: 52%;
+    /* background-color: aquamarine; */
+    max-width:max-content;
+    gap: 1rem;
+    padding-right: 1rem;
 }
 
-.news h2{
-    border-style: dotted;
-    padding-bottom: 8rem;
+.main-content{
+    padding-top:2rem;
+    padding-left:2rem ;
+    width: 100%;
+    height: 86vh;
+    display: flex;
+    gap: 4rem;
+    margin: auto;
+
+}
+
+.new{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 1px solid #000;
+    margin: auto;
+}
+
+.news img{
+    width: 50%;
+}
+
+.news{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    overflow-y: scroll;
+    height: 75vh;
+    border:solid #9BABB8;
+    padding: 1rem;
+    border-radius: 9px;
+}
+
+.new-title{
+    width: fit-content;
+    margin: auto;
+    color: black;
+    font-size: 44px;
+    font-weight: 900px;
 }
 
 .form{
     display: flex;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 60vh;
+    background-image: url(./assets/form_background.jpeg);
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
-.right-content{
-    width: 24%;
 
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
 }
+
+button {
+    background-color: #716F81;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.right-content{
+    padding-left: 3rem;
+    padding-top: 6rem;
+    border:solid  #9BABB8;
+}
+
 .profile{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
+    padding: 2rem;
+    margin: 1rem 1rem 0 0;
+    border-bottom: solid #9BABB8 ;
 }
 
 .profile img{
     width: 5rem;
 }
 
-.aplly{
-    background-color: antiquewhite;
-    display: flex;
-    justify-content: space-around;
+ .wallet{
+    max-width: 100%;
     margin-top: 4rem;
-}
-
-.wallet{
-    max-width: 75%;
     margin: auto;
-    background-color: bisque;
-    margin-top: 4rem;
+    padding: 2rem 1rem;
+    margin: 1rem 1rem 0 0;
+
 }
 
 .wallet-title{
@@ -130,23 +202,23 @@ section .döviz-title{
     gap: 1rem;
 }
 
-.wallet-content{
-    margin-left: 3rem;
-}
-
 .wallet-title img{
     width: 3rem;
 }
 
-.aplly img{
-    width: 5rem;
+.wallet-content{
+    margin: auto;
+    padding-left: 2.5rem;
 }
+
+
+
+
 footer{
-    margin: 0 2rem;
     padding: 2rem;
-    background-color: darkgray;
+    background-color: #8CA1A5;
     display: flex;
-    gap: 52%;
+    gap: 12rem;
 }
 
 .Quastion a{
@@ -160,6 +232,31 @@ footer{
     margin-bottom: 0.5rem;
 }
 
+.perform{
+    width:fit-content;
+    margin-left: 8rem;
+}
+
+.aplly{
+    margin-top: 3rem;
+    display: flex;
+    gap: 4rem;
+    width: 50%;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.aplly img{
+    width: 5rem;
+    margin-bottom: 0.5rem;
+}
+
+.aplly ol li{
+    margin-bottom: 1rem;
+}
 /* footer{
     background-color: darkgray;
 } */

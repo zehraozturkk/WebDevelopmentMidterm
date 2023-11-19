@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>Clear Bank</title>
+    <link rel="icon" href="./assets/favicon.ico" >
+
 </head>
 <body>
     
@@ -12,9 +14,9 @@
         
         <header>
             <div class="title">
-                <h1>FzoBank</h1>
-                <div>
-                    <img class="bankaimage" src="./assets/banka.jpg" alt="">
+                <h1>ClearBank</h1>
+                <div >
+                    <img class="bankaimage" src="./assets/summer.png" alt="">
                 </div>
             </div>
             <div class="title-sentence">
@@ -24,7 +26,7 @@
 
         <div class="content">
             <div class="left-content">
-                <h3>piyaslaar</h3>
+                <h3>Markets</h3>
                 
                 <div class="money">
                     <section>
@@ -32,9 +34,16 @@
                             <img src="./assets/coin.png" alt="">
                             <h4>dolar</h4> 
                         </div>
-                        <div>
-                            <p>alış 565</p>
-                            <p>satış 565</p>
+                        <div class="sale-purchase">
+                            <div class="sale">
+                                <h5>Sale</h5>
+                                <p>28</p>
+                            </div>
+                            <div class="purchase">
+                                <h5>Purchase</h5>
+                                <p>328</p>
+                            </div>
+
                         </div>
                     </section>
 
@@ -43,9 +52,16 @@
                             <img src="./assets/pound.png" alt="">
                             <h4>Pound</h4>
                         </div>
-                        <div>
-                            <p>alış 565</p>
-                            <p>satış 565</p>
+                        <div class="sale-purchase">
+                            <div class="sale">
+                                <h5>Sale</h5>
+                                <p>28</p>
+                            </div>
+                            <div class="purchase">
+                                <h5>Purchase</h5>
+                                <p>329</p>
+                            </div>
+
                         </div>    
                     </section>
 
@@ -54,9 +70,16 @@
                             <img src="./assets/euro.png" alt="">
                             <h4>Euro </h4> 
                         </div>
-                        <div>
-                            <p>satış 565</p>
-                            <p>alış 565</p>
+                        <div class="sale-purchase">
+                            <div class="sale">
+                                <h5>Sale</h5>
+                                <p>28</p>
+                            </div>
+                            <div class="purchase">
+                                <h5>Purchase</h5>
+                                <p>327</p>
+                            </div>
+
                         </div>
                     </section>
 
@@ -65,9 +88,16 @@
                             <img src="./assets/lira.png" alt="">
                             <h4>Lira</h4> 
                         </div>
-                        <div>
-                            <p>satış 565</p>
-                            <p>alış 565</p>
+                        <div class="sale-purchase">
+                            <div class="sale">
+                                <h5>Sale</h5>
+                                <p>28</p>
+                            </div>
+                            <div class="purchase">
+                                <h5>Purchase</h5>
+                                <p>329</p>
+                            </div>
+
                         </div>
                     </section>
                     
@@ -80,9 +110,16 @@
                             <img src="./assets/gold.png" alt="">
                             <h4>Gold</h4> 
                         </div>
-                        <div>
-                            <p>satış 565</p>
-                            <p>alış 565</p>
+                        <div class="sale-purchase">
+                            <div class="sale">
+                                <h5>Sale</h5>
+                                <p>28,2673</p>
+                            </div>
+                            <div class="purchase">
+                                <h5>Purchase</h5>
+                                <p>329,4674</p>
+                            </div>
+
                         </div>
                     </section>
 
@@ -91,9 +128,16 @@
                             <img src="./assets/silver.png" alt="">
                             <h4>Siver</h4> 
                         </div>
-                        <div>
-                            <p>satış 565</p>
-                            <p>alış 565</p>
+                        <div class="sale-purchase">
+                            <div class="sale">
+                                <h5>Sale</h5>
+                                <p>28,2673</p>
+                            </div>
+                            <div class="purchase">
+                                <h5>Purchase</h5>
+                                <p>329,4674</p>
+                            </div>
+
                         </div>
                     </section>
                 </div>
@@ -102,40 +146,72 @@
             </div>
             <div class="main-content">
                 <div class="news">
-                    <h2>Borsa düşüte</h2>
-                    <h2>Hisselerinizi koruyun</h2>
-                    <h2>Bankamızın sonu ne olacak</h2>
+                    <h2 class="new-title">News</h2>
+                    <div class="new">
+                        <h2>Will the stock market drop?</h2>
+                        <img src="./assets/borsa.jpeg" alt="">    
+                    </div>
+                    
+                    <div class="new">
+                        <h2>End to Interest</h2>
+                        <img src="./assets/faiz.jpg" alt="">
+                    </div>
+                    <div class="new">
+                        <h2>Deposit-Free Accounts for Students</h2>
+                        <img src="./assets/studenTaccount.jpg" alt="">
+                    </div>
+                    <div class="new">
+                        <h2>Gift for Bringing Your Report Card</h2>
+                        <img src="./assets/present.jpg" alt="">
+                    </div>
+                    <div class="new">
+                        <h2>Marriage Guarantee Account</h2>
+                        <img src="./assets/marriage.jpg" alt="">
+                    </div>
+
+                    
+                    
                 </div>
-                <div class="form">
-                    <form action="/form_handler.php" method="post">
-                        <!-- İsim Alanı -->
-                        <input placeholder="şube ve adres arama" type="text" id="isim" name="isim" required>
-                        <br>
-                        <!-- Ürün Seçimi -->
-                        <input type="number" id="adet" name="adet" min="1" required>
-                        <br>
-                        <select  id="urun" name="şehir_seçiniz" required>
-                            <option value="urun1">Ankara</option>
-                            <option value="urun2">Muğla</option>
-                            <option value="urun3">İzmir</option>
-                        </select>
-                
-                        <!-- Adet Seçimi -->
-                
-                        <!-- Gönder Butonu -->
-                        <button type="submit">Siparişi Gönder</button>
-                    </form>
+                <div>
+
+                    <div class="form">
+                        <h4>Our Branches</h4>
+                        <form  action="/form_handler.php" method="post">
+                        
+                            
+                            <input placeholder="Search Branch" type="text" required>
+                            <select id="urun" name="select city" required>
+                                <option value="">select city</option>
+                                <option value="urun1">Istanbul</option>
+                                <option value="urun2">Muğla</option>
+                                <option value="urun3">İzmir</option>
+                                <option value="urun3">UK</option>
+                                <option value="urun3">İzmir</option>
+                            </select>
+                            <select id="urun" name="select city" required>
+                                <option value="">Select District</option>
+                                
+                            </select>
+                            
+                            <button type="submit">Search The Branch</button>
+                        </form>
+                    </div>
+                   
+    
+                    
                 </div>
             </div>
+
+
             <div class="right-content">
                 <div class="profile">
-                    <img src="./assets/woman.png" alt="">
-                    <h4 class="name">Zehra öztürk</h4>
+                    <img src="./assets/WhatsApp Image 2023-11-19 at 15.08.23.jpeg" alt="">
+                    <h4 class="name">Welcome Fatmatüzzehra öztürk</h4>
                 </div>
                 <div class="wallet">
                     <div class="wallet-title">
-                        <h4>birikimleriniz</h4>
                         <img src="./assets/wallet.png" alt="">
+                        <h4>You Have</h4>
                     </div>
                     <div class="wallet-content">
                         <p><strong>Turkish Lira:</strong>  50.000₺</p>
@@ -143,16 +219,7 @@
                     </div>
                 </div>
 
-                <div class="aplly">
-                    <ol>
-                        <li><img src="./assets/card-payment.png" alt="">kredi</li>
-                        <li> <img src="./assets/insurance.png" alt="">sigorta</li>
-                    </ol>
-                    <ol>
-                        <li> <img src="./assets/credit-cards.png" alt="">bankkart</li>
-                        <li> <img src="./assets/retirement.png" alt="">bireysel emeklilik</li>
-                    </ol>
-                </div>
+              
                 
             </div>
         </div>
@@ -163,12 +230,26 @@
                 <a href="#">Nasıl birikim hesabı açarım</a>
                 <a href="#">Borsa işlemlerine nasıl başvurabilirim</a>
             </div>
+
+            <div class="perform">
+                <h3>Operations You Can Perform</h3>
+                <div class="aplly">
+                    <ol>
+                        <li><img src="./assets/card-payment.png" alt="">credit</li>
+                        <li> <img src="./assets/insurance.png" alt="">Insurance</li>
+                    </ol>
+                    <ol>
+                        <li> <img src="./assets/credit-cards.png" alt="">Credit Card</li>
+                        <li> <img src="./assets/retirement.png" alt="">Retirement</li>
+                    </ol>
+                </div>
+            </div>
             <div class="contact">
+                <h3>Contact Us</h3>
                 <ol>
-                    <li>mail:</li>
-                    <li>phone:</li>
-                    <li>adress:</li>
-                    <li>social:media</li>
+                    <li>mail: clearbank@gmail.com</li>
+                    <li>phone: (+90) 555 444 1801</li>
+                    <li>adress: Mugla Sıtkı Koçman Üniversitesi</li>
                 </ol>
             </div>
         </footer>
