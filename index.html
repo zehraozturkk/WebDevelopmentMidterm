@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="container">
+        
+        <header>
+            <div class="title">
+                <h1>FzoBank</h1>
+                <div>
+                    <img class="bankaimage" src="./assets/banka.jpg" alt="">
+                </div>
+            </div>
+            <div class="title-sentence">
+                <h3 >"We're Here for You, Because Every Customer is Special."</h3>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="left-content">
+                <h3>piyaslaar</h3>
+                
+                <div class="money">
+                    <section>
+                        <div  class="döviz-title">
+                            <img src="./assets/coin.png" alt="">
+                            <h4>dolar</h4> 
+                        </div>
+                        <div>
+                            <p>alış 565</p>
+                            <p>satış 565</p>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="döviz-title">
+                            <img src="./assets/pound.png" alt="">
+                            <h4>Pound</h4>
+                        </div>
+                        <div>
+                            <p>alış 565</p>
+                            <p>satış 565</p>
+                        </div>    
+                    </section>
+
+                    <section>
+                        <div class="döviz-title">
+                            <img src="./assets/euro.png" alt="">
+                            <h4>Euro </h4> 
+                        </div>
+                        <div>
+                            <p>satış 565</p>
+                            <p>alış 565</p>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="döviz-title">
+                            <img src="./assets/lira.png" alt="">
+                            <h4>Lira</h4> 
+                        </div>
+                        <div>
+                            <p>satış 565</p>
+                            <p>alış 565</p>
+                        </div>
+                    </section>
+                    
+                </div>
+
+                <div>
+                
+                    <section>
+                        <div class="döviz-title">
+                            <img src="./assets/gold.png" alt="">
+                            <h4>Gold</h4> 
+                        </div>
+                        <div>
+                            <p>satış 565</p>
+                            <p>alış 565</p>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="döviz-title">
+                            <img src="./assets/silver.png" alt="">
+                            <h4>Siver</h4> 
+                        </div>
+                        <div>
+                            <p>satış 565</p>
+                            <p>alış 565</p>
+                        </div>
+                    </section>
+                </div>
+  
+            
+            </div>
+            <div class="main-content">
+                <div class="news">
+                    <h2>Borsa düşüte</h2>
+                    <h2>Hisselerinizi koruyun</h2>
+                    <h2>Bankamızın sonu ne olacak</h2>
+                </div>
+                <div class="form">
+                    <form action="/form_handler.php" method="post">
+                        <!-- İsim Alanı -->
+                        <input placeholder="şube ve adres arama" type="text" id="isim" name="isim" required>
+                        <br>
+                        <!-- Ürün Seçimi -->
+                        <input type="number" id="adet" name="adet" min="1" required>
+                        <br>
+                        <select  id="urun" name="şehir_seçiniz" required>
+                            <option value="urun1">Ankara</option>
+                            <option value="urun2">Muğla</option>
+                            <option value="urun3">İzmir</option>
+                        </select>
+                
+                        <!-- Adet Seçimi -->
+                
+                        <!-- Gönder Butonu -->
+                        <button type="submit">Siparişi Gönder</button>
+                    </form>
+                </div>
+            </div>
+            <div class="right-content">
+                <div class="profile">
+                    <img src="./assets/woman.png" alt="">
+                    <h4 class="name">Zehra öztürk</h4>
+                </div>
+                <div class="wallet">
+                    <div class="wallet-title">
+                        <h4>birikimleriniz</h4>
+                        <img src="./assets/wallet.png" alt="">
+                    </div>
+                    <div class="wallet-content">
+                        <p><strong>Turkish Lira:</strong>  50.000₺</p>
+                        <p><strong>Dolar:</strong>  20.000$</p>
+                    </div>
+                </div>
+
+                <div class="aplly">
+                    <ol>
+                        <li><img src="./assets/card-payment.png" alt="">kredi</li>
+                        <li> <img src="./assets/insurance.png" alt="">sigorta</li>
+                    </ol>
+                    <ol>
+                        <li> <img src="./assets/credit-cards.png" alt="">bankkart</li>
+                        <li> <img src="./assets/retirement.png" alt="">bireysel emeklilik</li>
+                    </ol>
+                </div>
+                
+            </div>
+        </div>
+        <footer>
+            <div class="Quastion">
+                <h4>sıkça sorulan sorular</h4>
+                <a href="#">Nasıl bankkartlı olurum</a>
+                <a href="#">Nasıl birikim hesabı açarım</a>
+                <a href="#">Borsa işlemlerine nasıl başvurabilirim</a>
+            </div>
+            <div class="contact">
+                <ol>
+                    <li>mail:</li>
+                    <li>phone:</li>
+                    <li>adress:</li>
+                    <li>social:media</li>
+                </ol>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

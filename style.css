@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --primary-color: hotpink;
+}
+
+
+/* #container{
+    max-width: 90%;
+    height: 900px;
+    margin: auto;
+    border-style: dashed;
+} */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 2rem;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.title-sentence{
+    margin-top: 1rem;
+}
+.bankaimage{
+    width: 8rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem 0 2rem;
+    height: 100vh;
+}
+
+.left-content{
+    width: 24%;
+    padding-top: 4rem;
+    padding-left: 5rem;
+}
+
+section img{
+    max-width: 2.4rem;
+}
+.money{
+    margin-bottom: 4rem;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+section .döviz-title{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* div section{
+    max-width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+} */
+
+
+.main-content{
+    border-style: groove;
+    width: 52%;
+}
+
+.news h2{
+    border-style: dotted;
+    padding-bottom: 8rem;
+}
+
+.form{
+    display: flex;
+}
+.right-content{
+    width: 24%;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile img{
+    width: 5rem;
+}
+
+.aplly{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+
+.wallet{
+    max-width: 75%;
+    margin: auto;
+    background-color: bisque;
+    margin-top: 4rem;
+}
+
+.wallet-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    gap: 1rem;
+}
+
+.wallet-content{
+    margin-left: 3rem;
+}
+
+.wallet-title img{
+    width: 3rem;
+}
+
+.aplly img{
+    width: 5rem;
+}
+footer{
+    margin: 0 2rem;
+    padding: 2rem;
+    background-color: darkgray;
+    display: flex;
+    gap: 52%;
+}
+
+.Quastion a{
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    border-style: groove;
+    color: black;
+    height: 3rem;
+    background-color: aliceblue;
+    margin-bottom: 0.5rem;
+}
+
+/* footer{
+    background-color: darkgray;
+} */
+
+@media (max-width: 500px) {
+    
+    body {
+    margin: 0 2px;
+    }
+}
