@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <title>Clear Bank</title>
-    <link rel="icon" href="./assets/favicon.ico" >
+    <link rel="icon" href="./assets/favicon.ico">
 
 </head>
 <body>
-    
-    <div id="container">
-        
+ 
+    <!-- Header start -->
         <header>
             <div class="title">
                 <h1>ClearBank</h1>
@@ -24,6 +23,9 @@
             </div>
         </header>
 
+        <!-- header end -->
+
+        <!-- content start -->
         <div class="content">
             <div class="left-content">
                 <h3>Markets</h3>
@@ -144,6 +146,7 @@
   
             
             </div>
+            <!-- this part contains news and forms -->
             <div class="main-content">
                 <div class="news">
                     <h2 class="new-title">News</h2>
@@ -151,34 +154,23 @@
                         <h2>Will the stock market drop?</h2>
                         <img src="./assets/borsa.jpeg" alt="">    
                     </div>
-                    
-                    <div class="new">
-                        <h2>End to Interest</h2>
-                        <img src="./assets/faiz.jpg" alt="">
-                    </div>
                     <div class="new">
                         <h2>Deposit-Free Accounts for Students</h2>
                         <img src="./assets/studenTaccount.jpg" alt="">
                     </div>
                     <div class="new">
                         <h2>Gift for Bringing Your Report Card</h2>
-                        <img src="./assets/present.jpg" alt="">
+                        <img style="width: 30%;" src="./assets/present.jpg" alt="">
                     </div>
                     <div class="new">
                         <h2>Marriage Guarantee Account</h2>
-                        <img src="./assets/marriage.jpg" alt="">
+                        <img style="width: 30%;" src="./assets/marriage.jpg" alt="">
                     </div>
-
-                    
-                    
                 </div>
                 <div>
-
                     <div class="form">
                         <h4>Our Branches</h4>
-                        <form  action="/form_handler.php" method="post">
-                        
-                            
+                        <form  action="/form_handler.php" method="post">  
                             <input placeholder="Search Branch" type="text" required>
                             <select id="urun" name="select city" required>
                                 <option value="">select city</option>
@@ -196,13 +188,11 @@
                             <button type="submit">Search The Branch</button>
                         </form>
                     </div>
-                   
-    
-                    
                 </div>
             </div>
+            <!-- main content end -->
 
-
+            <!-- right content part contains profile information -->
             <div class="right-content">
                 <div class="profile">
                     <img src="./assets/WhatsApp Image 2023-11-19 at 15.08.23.jpeg" alt="">
@@ -218,19 +208,24 @@
                         <p><strong>Dolar:</strong>  20.000$</p>
                     </div>
                 </div>
-
-              
-                
             </div>
         </div>
+        <!-- content end -->
+
+        <!-- footer start -->
+        <footer></footer>
         <footer>
-            <div class="Quastion">
-                <h4>sıkça sorulan sorular</h4>
-                <a href="#">Nasıl bankkartlı olurum</a>
-                <a href="#">Nasıl birikim hesabı açarım</a>
-                <a href="#">Borsa işlemlerine nasıl başvurabilirim</a>
+            <div class="Questions">
+                <h3>Mostly Question</h3>
+                <div class="Question">
+                    <a href="#">Nasıl bankkartlı olurum</a>
+                    <a href="#">Nasıl birikim hesabı açarım</a>
+                    <a href="#">Borsa işlemlerine nasıl başvurabilirim</a>
+                    <a href="#">Borsa işlemlerine nasıl başvurabilirim</a>
+                </div>
             </div>
 
+            <!-- this part about apply process -->
             <div class="perform">
                 <h3>Operations You Can Perform</h3>
                 <div class="aplly">
@@ -251,9 +246,11 @@
                     <li>phone: (+90) 555 444 1801</li>
                     <li>adress: Mugla Sıtkı Koçman Üniversitesi</li>
                 </ol>
+                <img class="communicate" src="./assets/communicate.png" alt="">
             </div>
         </footer>
 
-    </div>
+        <!-- footer end -->
+
 </body>
 </html>
